@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,300&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Alfa Slab One", cursive;
+}
+header {
+  width: 100%;
+  background-color: hsl(208, 76%, 13%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .logo {
+  color: hsl(49, 92%, 53%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-family: "Exo 2", sans-serif;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+header nav ul li {
+  list-style: none;
+  color: hsl(207, 82%, 85%);
+  font-family: "Exo 2", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 45em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(208, 76%, 13%);
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+p {
+  color: hsl(207, 67%, 82%);
+  font-size: 2em;
+  letter-spacing: 0.5rem;
+}
+
+#currentYear {
+  font-size: 1em !important;
+  color: hsl(49, 89%, 68%);
+  text-align: center;
+  padding: 0.5em;
+}
