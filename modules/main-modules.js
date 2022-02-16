@@ -99,7 +99,16 @@
 export const clog = console.log.bind(document);
 // clog("Ciao bella mi piacere parlare il italiano");
 
-// export const element = document.getElementById(id);
+export function elementID(id) {
+  const el = document.getElementById(`${id}`);
+  return el;
+}
+
+//   /*
+// ==========================================================================
+// // Merge two arrays
+// ==========================================================================
+// */
 
 export function mergeArrays(array1, array2) {
   const merge = [...array1, ...array2];

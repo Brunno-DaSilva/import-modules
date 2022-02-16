@@ -1,8 +1,7 @@
 // import { sayHi } from "./sayHi.js";
-import { clog } from "./main-modules.js";
-import { mergeArrays } from "./main-modules.js";
+import { clog, mergeArrays, elementID } from "./main-modules.js";
 
-const container = document.getElementById("container");
+const container = elementID("container");
 
 // sayHi("Bruno");
 clog("Ciao bella mi piacere parlare il italiano");
