@@ -1,4 +1,4 @@
-const HP_DATA = [
+export const HPDATA = [
   {
     name: "Harry Potter",
     alternate_names: [],
@@ -10168,4 +10168,4 @@ const HP_DATA = [
   },
 ];
 
-export default HP_DATA;
+// export default HP_DATA;
