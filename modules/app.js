@@ -27,11 +27,15 @@ clog(theNewStackData);
 const arrayInClass = theNewStackData._array;
 const arrayLength = theNewStackData.length;
 
+const pushNewArray = arrGeneral.reduceRight(
+  (stack, item) => stack.push(item),
+  theNewStackData
+);
+
 container.innerHTML = `
 <h1>Merged Arrays: ${mergedArray}</h1> 
 <p>ArrayInClass: ${arrayInClass}</p> 
 <p>Array Length: ${arrayLength}</p> 
-<p>Array POP: ${arrayPush}</p> 
-
+<p>after Merged new ARR in class: ${pushNewArray._array}</p> 
 
 `;
