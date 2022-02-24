@@ -14,8 +14,6 @@ let mergedArray = mergeArrays(arrSmile, arrGeneral);
 
 getFooterDate("currentYear");
 
-//Classes:
-
 const arrOfMonsters = ["👿", "👹", "👺", "👽", "👾", "🤖", "🎃"];
 const target = Stack.empty;
 const theNewStackData = arrOfMonsters.reduceRight(
